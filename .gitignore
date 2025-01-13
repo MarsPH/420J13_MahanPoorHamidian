@@ -31,4 +31,70 @@
 *.out
 *.app
 
+# Visual Studio temporary files, build results, and
+# other generated files
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio workspace and crash files
 .vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.filters.*.user
+*.VC.opendb
+*.VC.VC.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64*/
+
+# Test Results
+[Tt]est[Rr]esult*/
+*.trx
+*.log
+.buildpath
+*.coverage
+*.coveragexml
+*.sonarqube/
+
+# NPM Packages
+node_modules/
+
+# Temporary files
+*.tmp
+*.log
+*.temp
+
+# Other generated folders or files
+bin/
+obj/
+out/
+ipch/
+*.ipdb
+*.pdb
+*.tlog
+*.idb
+*.pgc
+*.pgd
+*.rsp
+*.ilk
+
+# Python virtual environment (if applicable)
+.venv/
+.env/
+env/
+
+# Backup files
+*.bak
+*.swp
+
+# Visual Studio Code settings (if you also use VS Code)
+.vscode/
