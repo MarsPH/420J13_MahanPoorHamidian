@@ -21,8 +21,7 @@ void RunUserAccount()
 		std::cout << "Enter account ID: ";
 		std::cin >> id;
 
-
-		if (std::cin.fail()) {
+		if (std::cin.fail()) { 
 			std::cin.clear();
 			std::cin.ignore(10000, '\n');
 			std::cout << "Invalid Input for ID" << "\n";
